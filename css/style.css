@@ -26,7 +26,6 @@ html{
     border-radius: 100rem;;
 }
 
-.position-relative{
-    position: relative;
-    
+.justify-content{
+    justify-content: space-between;
 }
