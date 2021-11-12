@@ -29,3 +29,11 @@ html{
 .justify-content-sbtw{
     justify-content: space-between;
 }
+
+.dropdown-menu {
+  min-width:inherit;
+}
+
+.position-static{
+    position: static;
+}
