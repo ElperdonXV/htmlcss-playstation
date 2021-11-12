@@ -54,3 +54,7 @@ html{
     background-size: cover;
     background-position: center;
 }
+
+.jumbo-align img{
+    width: 100%;
+}
