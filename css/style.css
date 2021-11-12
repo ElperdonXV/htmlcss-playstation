@@ -43,7 +43,7 @@ html{
 }
 
 .header-bottom .dropdown .list-inline-item img{
-    width: 5em;
+    width: 8em;
 }
 
 .jumbotron{
@@ -57,4 +57,19 @@ html{
 
 .jumbo-align img{
     width: 100%;
+    max-width: 300px;
+    margin-bottom: 1em;
+}
+
+.jumbo-row{
+    display: flex;
+    height: 700px;
+    align-items: flex-end;
+}
+.jumbo-content{
+    padding-bottom: 5em;
+}
+
+.jumbo-content h1{
+    margin-bottom: 0.5em;
 }
