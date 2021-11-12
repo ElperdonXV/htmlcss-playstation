@@ -142,3 +142,12 @@ html{
 .games-bottom{
     margin-top: 1em;
 }
+
+.ps-four{
+    padding: 0;
+    padding-top: 2em;
+}
+
+.thumb-text{
+    width: 85%;
+}
