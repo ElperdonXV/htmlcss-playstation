@@ -98,3 +98,22 @@ html{
 .ps-img img{
     width: 100%;
 }
+
+
+
+.thumb-img img{
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+.thumb-active{
+    border-bottom: 3px solid #0d6efd;
+}
+
+.thumb-off{
+    opacity: 50%;
+}
+
+.row .thumb-off:hover{
+    opacity: 100%;
+}
