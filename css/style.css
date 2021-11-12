@@ -151,3 +151,32 @@ html{
 .thumb-text{
     width: 85%;
 }
+
+.small-banner{
+    margin-top: 3em;
+    background-color: grey;
+    height: 400px;
+}
+
+.ps-logo-resize img{
+    width: 65%;
+}
+
+.ps-games-resize img{
+    width: 100%;
+}
+
+.bg-lightgrey{
+    background-color: lightgrey;
+}
+
+.left-small-banner{
+    margin: 2em;
+    padding: 2em 0;
+}
+@media screen and (max-width:992px) {
+    .ps-games-resize img{
+    display: none;
+}
+
+}
