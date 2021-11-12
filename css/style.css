@@ -92,5 +92,9 @@ html{
 }
 
 .playstation-bottom{
-    padding-top: 8em;
+    padding-top: 4em;
+}
+
+.ps-img img{
+    width: 100%;
 }
