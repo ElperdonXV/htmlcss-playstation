@@ -82,3 +82,15 @@ html{
 .jumbo-carosel {
     margin-top: 3em;
 }
+
+.playstation{
+    padding: 8em 0;
+}
+
+.playstation-top{
+    text-align: center;
+}
+
+.playstation-bottom{
+    padding-top: 8em;
+}
