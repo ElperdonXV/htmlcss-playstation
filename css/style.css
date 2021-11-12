@@ -35,7 +35,8 @@ html{
 }
 
 .drop-fix{
-    margin-top: 0;
+    top: 98%!important;
+    margin: 0;
     border: none;
     border-bottom: 1px solid rgba(0,0,0,.15);
     border-radius: 0;
