@@ -166,17 +166,48 @@ html{
     width: 100%;
 }
 
+.height-fix img{
+    min-height: 288px;
+}
+
 .bg-lightgrey{
     background-color: lightgrey;
 }
 
 .left-small-banner{
-    margin: 2em;
     padding: 2em 0;
 }
-@media screen and (max-width:992px) {
-    .ps-games-resize img{
+@media screen and (max-width:576px) {
+    .ps-games-resize {
     display: none;
 }
 
+}
+
+.bg-blue{
+    background-color: #161C3B;
+}
+
+footer{
+    width: 100%;
+    background-color: #00439C;
+    padding: 3em 0;
+}
+
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: white;
+}
+
+.footer-nation svg{
+    width: 25px;
+}
+
+.footer-bottom img{
+    width: 200px;
 }
