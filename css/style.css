@@ -77,10 +77,21 @@ html{
 .jumbo-carosel img{
     max-width: 100%;
     border-radius: 1rem;
+    transition: 1s;
+}
+
+.jumbo-carosel .col:hover img{
+    transform: translateY(-20px);
 }
 
 .jumbo-carosel {
     margin-top: 3em;
+}
+
+.img-selected img{
+    padding: 2px;
+    border: 3px solid #0d6efd;
+    border-radius: 1.2rem;
 }
 
 .playstation{
@@ -112,6 +123,7 @@ html{
 
 .thumb-off{
     opacity: 50%;
+    transition: 1.5s;
 }
 
 .row .thumb-off:hover{
@@ -211,3 +223,69 @@ footer a:hover{
 .footer-bottom img{
     width: 200px;
 }
+
+.navbar-nav .nav-link:hover {
+    color: #0d6efd!important
+}
+
+.dropdown-toggle::after {
+    vertical-align: middle;
+    border: 0;
+    content: '';
+    height: 15px;
+    width: 15px;
+    background: url(../img/chevron-down-solid.svg) no-repeat;
+}
+
+.dropdown-toggle:hover:after {
+    background: url(../img/chevron-down-solid-hover.svg) no-repeat;
+}
+
+.dropdown-toggle.show::after {
+    background: url(../img/chevron-down-solid.svg) no-repeat;
+    transform: rotate(180deg);
+}
+
+.dropdown-toggle.show:hover:after {
+    background: url(../img/chevron-down-solid-hover.svg) no-repeat;
+    transform: rotate(180deg);
+} 
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #1e2125;
+    background-color: white;
+    box-shadow: 0px 1px 5px black;
+}
+
+.sublink{
+    text-decoration: none;
+    color: black;
+}
+
+.sublink::before{
+    content: '';
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: #0d6efd;
+    vertical-align: middle;
+    margin-right: 0.3em;
+}
+
+.btn-dark:hover ,  
+.btn-primary:hover {
+    box-shadow: inset 0 0 0 2px white;
+}
+
+.btn-danger:hover, 
+.btn-light:hover {
+    box-shadow: inset 0 0 0 2px black;
+}
+
+@media screen and (max-width:992px) {
+    .special{
+    align-items: baseline!important
+    }
+}
+
